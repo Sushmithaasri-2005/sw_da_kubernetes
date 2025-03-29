@@ -28,7 +28,7 @@ sw_da/
 
 ## 🛠 Deployment Guide  
 
-### ⚡ Windows Users  
+###  Windows Users  
 
 #### **1⃣ Install Docker Desktop**  
 Download and install Docker from [docker.com](https://www.docker.com/products/docker-desktop).  
@@ -59,7 +59,7 @@ kubectl apply -f k8s/
 
 ---
 
-### 🐧 Ubuntu Users  
+###  Ubuntu Users  
 
 #### **1⃣ Install Dependencies**  
 ```bash
@@ -129,7 +129,6 @@ docker system prune -a -f
 
 ### 📌 Notes:
 - Ensure **Docker is running** before starting Minikube.
-- Minikube may require **VT-x/AMD-v enabled** in BIOS.
 - If `kubectl get all` shows errors, restart the cluster:  
   ```bash
   minikube stop && minikube start
